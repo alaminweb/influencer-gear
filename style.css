@@ -98,8 +98,9 @@ nav {
   background-color: whitesmoke;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-  padding: 30px;
+  padding: 10px 50px;
   margin: 20px;
+  text-align: center;
 }
 /* MAIN PART OPEN */
 .products {
@@ -172,16 +173,17 @@ nav {
 .footer-icon {
   height: 25px;
   width: 25px;
-  padding: 0 10px;
+  padding: 10px 5px;
 }
 footer {
-  background-color: #120e43;
+  background-color: #0a0820;
   color: white;
-  margin-top: 50px;
-  height: 200px;
+  height: 250px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 2;
 }
 /* /* FOOTER PART END */
 
@@ -200,5 +202,13 @@ footer {
   }
   .nevigation li {
     font-size: medium;
+  }
+}
+@media (max-width: 500px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+  .banner-left h1 {
+    font-size: 25px;
   }
 }
