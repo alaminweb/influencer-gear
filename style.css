@@ -94,7 +94,13 @@ nav {
 }
 
 /* HEADER PART END */
-
+#e-commerce {
+  background-color: whitesmoke;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 30px;
+  margin: 20px;
+}
 /* MAIN PART OPEN */
 .products {
   display: grid;
@@ -178,3 +184,21 @@ footer {
   align-items: center;
 }
 /* /* FOOTER PART END */
+
+/* =====================================
+============responsive css==============
+======================================= */
+@media (max-width: 800px) {
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+  .banner-left h1 {
+    font-size: 30px;
+  }
+  .company-name h1 {
+    font-size: medium;
+  }
+  .nevigation li {
+    font-size: medium;
+  }
+}
