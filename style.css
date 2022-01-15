@@ -21,7 +21,7 @@ body {
   padding: 10px 15px;
   background-image: linear-gradient(90deg, #c21273, #ff008e);
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   border-radius: 30px;
   cursor: pointer;
@@ -43,6 +43,10 @@ nav {
   justify-content: space-between;
   height: 80px;
   align-items: center;
+}
+.nav-icon {
+  height: 25px;
+  width: 25px;
 }
 .nevigation {
   display: flex;
@@ -92,6 +96,31 @@ nav {
 /* HEADER PART END */
 
 /* MAIN PART OPEN */
+.products {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.review-icon {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+  color: #e07c24;
+}
+.items {
+  background-color: whitesmoke;
+  line-height: 1.5;
+  padding: 25px;
+  border-radius: 5%;
+}
+.see-more {
+  color: #ff008e;
+  font-weight: 600;
+  padding: 20px 0;
+  text-align: right;
+  cursor: pointer;
+}
 /* MAIN PART END */
 
 /* contact part css */
@@ -134,6 +163,11 @@ nav {
 }
 
 /* FOOTER PART OPEN */
+.footer-icon {
+  height: 25px;
+  width: 25px;
+  padding: 0 10px;
+}
 footer {
   background-color: #120e43;
   color: white;
